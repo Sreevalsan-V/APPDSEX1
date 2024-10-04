@@ -23,10 +23,10 @@ Step 6: Analyzing the dataset using visualizing tools form matplot library or se
 
 ```PY
 import pandas as pd
-import numpy as np
-pip install pandas numpy scikit-learn fuzzywuzzy python-Levenshtein
+import matplotlib.pyplot as plt
 ```
-![image](https://github.com/user-attachments/assets/1b5039b0-b2eb-4665-99ca-f38164996056)
+![alt text](image-1.png)
+
 ```
 from fuzzywuzzy import process
 from sklearn.preprocessing import MinMaxScaler
@@ -34,7 +34,6 @@ df = pd.read_csv('/content/emobile.csv')
 df.head()
 ```
 
-![alt text](image-1.png)
 
 ```py
 df.info()
