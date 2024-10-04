@@ -23,12 +23,14 @@ Step 6: Analyzing the dataset using visualizing tools form matplot library or se
 
 ```PY
 import pandas as pd
-import matplotlib.pyplot as plt
-import seaborn as sns
-from sklearn.preprocessing import LabelEncoder
-from category_encoders import BinaryEncoder
-from sklearn.preprocessing import MinMaxScaler,RobustScaler
-df=pd.read_csv('/content/Life Expectancy Data CSV.csv')
+import numpy as np
+pip install pandas numpy scikit-learn fuzzywuzzy python-Levenshtein
+```
+![image](https://github.com/user-attachments/assets/1b5039b0-b2eb-4665-99ca-f38164996056)
+```
+from fuzzywuzzy import process
+from sklearn.preprocessing import MinMaxScaler
+df = pd.read_csv('/content/emobile.csv')
 df.head()
 ```
 
