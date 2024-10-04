@@ -34,7 +34,8 @@ import pandas as pd
 import numpy as np
 pip install pandas numpy scikit-learn fuzzywuzzy python-Levenshtein
 ```
-![image](https://github.com/user-attachments/assets/1b5039b0-b2eb-4665-99ca-f38164996056)
+![image](https://github.com/user-attachments/assets/654b56aa-9d99-4649-b462-60e845c27c30)
+
 ```
 from fuzzywuzzy import process
 from sklearn.preprocessing import MinMaxScaler
